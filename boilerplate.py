@@ -1,7 +1,5 @@
 import sys, socket, time
 
-print len(sys.argv)
-
 if len(sys.argv) == 3:
     ip = sys.argv[1]
     port = int(sys.argv[2])
