@@ -7,13 +7,13 @@ I always lose my python Buffer Overflow Template so here it is.
 Generate a pattern:
 
 ```
-/usr/share/metasploit-framework/tools/exploit/pattern_create.rb -l 3000
+/usr/share/metasploit-framework/tools/exploit/pattern_create.rb -l 1234
 ```
 
 Find location in pattern
 
 ```
-/usr/share/metasploit-framework/tools/exploit/pattern_offset.rb -l 3000 -q 39694438
+/usr/share/metasploit-framework/tools/exploit/pattern_offset.rb -l 1234 -q ffffffff
 ```
 
 All Bad Chars:
